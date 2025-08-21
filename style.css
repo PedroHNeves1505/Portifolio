@@ -1,49 +1,94 @@
-.portifolio{
-    color: #0915E8;
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    background-color: #09A2E8;
-    color: #f0ffff;
-     display: flex;
-    flex-direction: column;      
-    align-items: center;        
-    justify-content: center;     
-    height: 100vh;         
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #f0ffff;    
+    height: 100vh;       
+    justify-content: space-between;  
 }
 
-.portifolio{
+.container__titulo{
+    color: #0915E8;
+    margin-left: 41%;
     font-size: 350%;
-    font-family: 'Merriweather', serif;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.titulotextostrong{
+.apresentacao {
+    display: flex;
+    align-items: center;
+    margin: 10%;   
+}
+
+.apresentacao__conteudo {
+    margin-left: 20%;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__texto {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.apresentacao__conteudo__titulo__strong{
     color: #0915E8;
     border: 3px, solid,  #0915E8;
 }
 
-.habilidades{
+.apresentacao__conteudo__texto__habilidades{
     color: #09E89C;
 }
 
-.foto{
+.apresentacao__foto{
     width: 20%;
     padding: 15px;
     display: block;
     margin: 0 auto;
+    margin-right: 20%;
 }
 
-.linkedin{
-    color: #F0FFFF;
-    border: 3px, solid, #F0FFFF;
-    padding: 10px;
-    background-color: #0915E8;
-    margin-right: 100px;
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
 }
 
-.github{
-    color: #F0FFFF;
-    border: 3px, solid, #F0FFFF;
-    padding: 10px;
-    background-color: #0915E8;
+
+.apresentacao__links__link {
+    background-color: #22D4FD;
+    width: 160px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 18px;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    border: 2px solid white;
+    margin: 10px 0;
 }
