@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f0ffff;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+
+.curriculo__titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    margin-top: 5%;
+}
+
+.curriculo__indice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    margin-top: 10%;
+}
+
+.curriculo__indice__lista {
+    margin: 0 0 10% 45%;
+    font-size: 16px;
+    color: var(--cor-secundaria);
+}
+
+.curriculo__topicos {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+.curriculo__topico__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    
+}
+
+.curriculo__topico__conteudo {
+    font-size: 16px;
+    color: var(--cor-secundaria);
+    margin: 0 0 5% 0;
+}
