@@ -166,5 +166,14 @@ html, body {
     .apresentacao__conteudo {
         width: auto;
     }
+
+    .apresentacao__conteudo {
+        margin: auto;
+        padding: auto;
+    }
+
+    .apresentacao__conteudo__titulo {
+        text-align: center;
+    }
     
 }
